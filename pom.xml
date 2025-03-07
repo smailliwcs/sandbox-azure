@@ -13,6 +13,7 @@
     <groupId>com.lantanagroup</groupId>
     <artifactId>sandbox-azure</artifactId>
     <version>0.1-SNAPSHOT</version>
+    <packaging>war</packaging>
 
     <dependencyManagement>
         <dependencies>
