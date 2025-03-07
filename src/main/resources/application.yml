@@ -1,0 +1,6 @@
+server:
+  error:
+    include-message: always
+
+sandbox:
+  message: Hello, world!
