@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    azure:
+      appconfiguration:
+        enabled: ${AZURE_APP_CONFIGURATION_ENABLED:false}
+        stores:
+          - connection-string: ${AZURE_APP_CONFIGURATION_CONNECTION_STRING:}
+            endpoint: ${AZURE_APP_CONFIGURATION_ENDPOINT:}
+            selects:
+              - key-filter: ${AZURE_APP_CONFIGURATION_KEY_FILTER:}
+                label-filter: ${AZURE_APP_CONFIGURATION_LABEL_FILTER:}

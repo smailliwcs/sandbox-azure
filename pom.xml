@@ -34,7 +34,7 @@
 
         <dependency>
             <groupId>com.azure.spring</groupId>
-            <artifactId>spring-cloud-azure-starter</artifactId>
+            <artifactId>spring-cloud-azure-appconfiguration-config</artifactId>
         </dependency>
     </dependencies>
 
