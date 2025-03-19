@@ -2,7 +2,7 @@ FROM maven:3-eclipse-temurin-17 AS build
 WORKDIR /root/app
 COPY pom.xml ./
 RUN mvn dependency:go-offline
-COPY ./ ./
+COPY src/ src/
 RUN mvn package
 
 FROM eclipse-temurin:17-alpine AS run
