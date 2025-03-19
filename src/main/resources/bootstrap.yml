@@ -3,3 +3,6 @@ spring:
     azure:
       appconfiguration:
         enabled: false
+
+sandbox:
+  bootstrap-message: Hello, world!
